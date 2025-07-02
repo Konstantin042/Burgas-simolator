@@ -10,35 +10,31 @@ using System.Windows.Forms;
 
 namespace Burgas_simolator
 {
-    public partial class Form1 : Form
+    public partial class Centur : Form
     {
-        public Form1()
+        public Centur()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void Centur_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
-
+            Form1 spirka = new Form1();
+            spirka.Show();
+            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             
-            
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
+            gara_ug g = new gara_ug();
+            g.Show();
             this.Hide();
-            Centur centur = new Centur();
-            centur.Show();
-
         }
     }
 }
