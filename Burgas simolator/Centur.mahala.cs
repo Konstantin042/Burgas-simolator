@@ -36,5 +36,26 @@ namespace Burgas_simolator
             g.Show();
             this.Hide();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            alosha alosha = new alosha();
+            alosha.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            aleksandrovska a = new aleksandrovska();
+            a.Show();
+            this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            kiwi k = new kiwi();
+            k.Show();
+            this.Hide();
+        }
     }
 }

@@ -10,18 +10,26 @@ using System.Windows.Forms;
 
 namespace Burgas_simolator
 {
-    public partial class gara_ug : Form
+    public partial class kiwivutre : Form
     {
-        public gara_ug()
+        public kiwivutre()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Form1 spirka1 = new Form1();
-            spirka1.Show();
-            this.Hide();
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

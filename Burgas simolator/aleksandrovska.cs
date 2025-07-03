@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Burgas_simolator
 {
-    public partial class gara_ug : Form
+    public partial class aleksandrovska : Form
     {
-        public gara_ug()
+        public aleksandrovska()
         {
             InitializeComponent();
         }

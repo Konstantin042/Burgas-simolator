@@ -40,5 +40,15 @@ namespace Burgas_simolator
             centur.Show();
 
         }
+        private string[] dialogLines = new string[]
+{
+     "Герой 1: Здравей!",
+     "Герой 2: Здрасти! Как си?",
+     "Герой 1: Добре съм. Имаш ли време да поговорим?",
+     "Герой 2: Разбира се. Какво има?",
+     "Герой 1: Имам мисия за теб!"
+};
+
+        private int dialogIndex = 0;
     }
 }

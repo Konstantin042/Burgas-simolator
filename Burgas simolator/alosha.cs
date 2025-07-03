@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace Burgas_simolator
 {
-    public partial class gara_ug : Form
+    public partial class alosha : Form
     {
-        public gara_ug()
+        public alosha()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 spirka1 = new Form1();
+            Centur spirka1 = new Centur();
             spirka1.Show();
             this.Hide();
         }
