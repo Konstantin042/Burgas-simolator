@@ -31,5 +31,13 @@ namespace Burgas_simolator
         {
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            kiwi kiwi = new kiwi();
+            kiwi.Show();
+            this.Hide();
+
+        }
     }
 }

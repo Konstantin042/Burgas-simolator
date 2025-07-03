@@ -23,5 +23,12 @@ namespace Burgas_simolator
             spirka1.Show();
             this.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Centur centur = new Centur();
+            centur.Show();
+            this.Show();
+        }
     }
 }

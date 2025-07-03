@@ -16,5 +16,19 @@ namespace Burgas_simolator
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+           kiwivutre kv = new kiwivutre();
+            kv.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Centur centur = new Centur();
+            centur.Show();  
+            this.Hide();
+        }
     }
 }
