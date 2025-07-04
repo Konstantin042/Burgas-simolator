@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Burgas_simolator.Properties;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,8 @@ namespace Burgas_simolator
 {
     public partial class kiwivutre : Form
     {
+        int count = 0;
+
         public kiwivutre()
         {
             InitializeComponent();
@@ -29,7 +32,24 @@ namespace Burgas_simolator
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            if (count == 2)
+            {
+                this.BackgroundImage = Resources.Toshko1;
+                label1.Text = "Ко стаа маняци3";
+                count++;
+            }
+            if (count == 1)
+            {
+                this.BackgroundImage = Resources.toshko2;
+                label1.Text = "Как си? по една бира ли ще пиеш тук за компания.";
+                count++;
+            }
+            if(count == 0)
+            {
+                this.BackgroundImage = Resources.toshko3;
+                label1.Text = "Ко стаа маняци!";
+                count++;
+            }
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -37,6 +57,21 @@ namespace Burgas_simolator
             kiwi kiwi = new kiwi();
             kiwi.Show();
             this.Hide();
+
+        }
+
+        private void kiwivutre_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
 
         }
     }

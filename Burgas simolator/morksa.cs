@@ -21,5 +21,27 @@ namespace Burgas_simolator
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            absa absa = new absa();
+            absa.Show();
+            this.Hide();
+            
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            bara bara = new bara();
+            bara.Show();
+            this.Hide();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+           Form1 form1 = new Form1();
+            form1.Show();
+            this.Hide();
+        }
     }
 }

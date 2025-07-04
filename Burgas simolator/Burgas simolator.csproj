@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="absa vutre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="absa vutre.Designer.cs">
+      <DependentUpon>absa vutre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="absa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="absa.Designer.cs">
+      <DependentUpon>absa.cs</DependentUpon>
+    </Compile>
     <Compile Include="aleksandrovska.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,6 +69,12 @@
     </Compile>
     <Compile Include="alosha.Designer.cs">
       <DependentUpon>alosha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bara.Designer.cs">
+      <DependentUpon>bara.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -96,11 +114,20 @@
     <Compile Include="Centur.mahala.Designer.cs">
       <DependentUpon>Centur.mahala.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="absa vutre.resx">
+      <DependentUpon>absa vutre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="absa.resx">
+      <DependentUpon>absa.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="aleksandrovska.resx">
       <DependentUpon>aleksandrovska.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="alosha.resx">
       <DependentUpon>alosha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bara.resx">
+      <DependentUpon>bara.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -157,6 +184,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Screenshot 2025-07-03 120138.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\absa.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\absa1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hora.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bara.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-07-04 103201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Toshko1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toshko2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toshko3.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -57,5 +57,12 @@ namespace Burgas_simolator
             k.Show();
             this.Hide();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            morksa m = new morksa();
+            m.Show();
+            this.Hide();
+        }
     }
 }

@@ -35,11 +35,11 @@
             // 
             this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(12, 396);
+            this.button1.Location = new System.Drawing.Point(-4, 582);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(208, 42);
+            this.button1.Size = new System.Drawing.Size(249, 100);
             this.button1.TabIndex = 0;
             this.button1.Text = "Да си бръмнем";
             this.button1.UseVisualStyleBackColor = false;
@@ -51,7 +51,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Burgas_simolator.Properties.Resources.alosha;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1184, 761);
             this.Controls.Add(this.button1);
             this.Name = "alosha";
             this.Text = "alosha";
