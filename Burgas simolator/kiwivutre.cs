@@ -35,13 +35,13 @@ namespace Burgas_simolator
             if (count == 2)
             {
                 this.BackgroundImage = Resources.Toshko1;
-                label1.Text = "Ко стаа маняци3";
+                label1.Text = "Евала че замаля малко с мен.";
                 count++;
             }
             if (count == 1)
             {
                 this.BackgroundImage = Resources.toshko2;
-                label1.Text = "Как си? по една бира ли ще пиеш тук за компания.";
+                label1.Text = "Как си? Аре да пиеш една бира тук за компания.";
                 count++;
             }
             if(count == 0)
@@ -67,6 +67,9 @@ namespace Burgas_simolator
 
         private void button5_Click(object sender, EventArgs e)
         {
+            kiwiponavutre kiwiponavutre = new kiwiponavutre();
+            kiwiponavutre.Show();
+            this.Close(); 
 
         }
 

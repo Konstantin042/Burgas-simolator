@@ -113,6 +113,16 @@ namespace Burgas_simolator.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Barabar {
+            get {
+                object obj = ResourceManager.GetObject("Barabar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hora {
             get {
                 object obj = ResourceManager.GetObject("hora", resourceCulture);
@@ -126,6 +136,16 @@ namespace Burgas_simolator.Properties {
         internal static System.Drawing.Bitmap IMG_2842 {
             get {
                 object obj = ResourceManager.GetObject("IMG_2842", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kiwiponavutre {
+            get {
+                object obj = ResourceManager.GetObject("kiwiponavutre", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

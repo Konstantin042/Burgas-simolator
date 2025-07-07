@@ -76,6 +76,12 @@
     <Compile Include="bara.Designer.cs">
       <DependentUpon>bara.cs</DependentUpon>
     </Compile>
+    <Compile Include="FightForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FightForm.Designer.cs">
+      <DependentUpon>FightForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +100,12 @@
     <Compile Include="kiwi.Designer.cs">
       <DependentUpon>kiwi.cs</DependentUpon>
     </Compile>
+    <Compile Include="kiwiponavutre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kiwiponavutre.Designer.cs">
+      <DependentUpon>kiwiponavutre.cs</DependentUpon>
+    </Compile>
     <Compile Include="kiwivutre.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -105,6 +117,12 @@
     </Compile>
     <Compile Include="morksa.Designer.cs">
       <DependentUpon>morksa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="piqn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="piqn.Designer.cs">
+      <DependentUpon>piqn.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -129,6 +147,9 @@
     <EmbeddedResource Include="bara.resx">
       <DependentUpon>bara.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FightForm.resx">
+      <DependentUpon>FightForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -138,11 +159,17 @@
     <EmbeddedResource Include="kiwi.resx">
       <DependentUpon>kiwi.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="kiwiponavutre.resx">
+      <DependentUpon>kiwiponavutre.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="kiwivutre.resx">
       <DependentUpon>kiwivutre.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="morksa.resx">
       <DependentUpon>morksa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="piqn.resx">
+      <DependentUpon>piqn.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -208,6 +235,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\toshko3.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kiwiponavutre.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barabar.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

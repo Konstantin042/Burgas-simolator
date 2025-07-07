@@ -12,9 +12,14 @@ namespace Burgas_simolator
 {
     public partial class bara : Form
     {
+        int score = 0;
+        int maxBeers;
+        Random rand = new Random();
         public bara()
         {
+            
             InitializeComponent();
+            maxBeers = rand.Next(5, 16);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -22,6 +27,21 @@ namespace Burgas_simolator
            morksa morksa = new morksa();
             morksa.Show();
             this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+            score++;
+            label1.Text = $"Бири изпити: {score}";
+
+            if (score >= maxBeers)
+            {
+                button2.Enabled = false;
+                FightForm f = new FightForm();
+                f.Show();
+                MessageBox.Show("Напи са мега много как ще та прибираме! Game Over.");
+            }
         }
     }
 }
