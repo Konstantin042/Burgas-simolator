@@ -94,12 +94,13 @@
             this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button5.Location = new System.Drawing.Point(586, 614);
+            this.button5.Location = new System.Drawing.Point(603, 611);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(124, 52);
             this.button5.TabIndex = 4;
             this.button5.Text = "Нептуна";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 

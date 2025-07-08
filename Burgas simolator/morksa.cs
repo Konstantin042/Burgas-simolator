@@ -43,5 +43,12 @@ namespace Burgas_simolator
             form1.Show();
             this.Hide();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            neptuna neptuna = new neptuna();    
+            neptuna.Show();
+            this.Hide();
+        }
     }
 }

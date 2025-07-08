@@ -109,7 +109,7 @@ namespace Burgas_simolator
                     if (markerX >= targetZone.X && markerX <= targetZone.X + targetZone.Width)
                     {
                         DamageDealt = 100;
-                        MessageBox.Show("Залитасх пиян");
+                        MessageBox.Show("Залиташ пиян");
                     }
                     else
                     {
@@ -130,14 +130,14 @@ namespace Burgas_simolator
         {
 
             private Timer gameTimer;
-            private int gameDuration = 30000; // ms
+            private int gameDuration = 10000; // ms
             private int elapsed = 0;
 
             private PictureBox heart;
             private int heartSpeed = 8;
 
             private Rectangle block;
-            private int blockSpeed = 12;
+            private int blockSpeed = 10;
             private Random rand = new Random();
 
             public DodgeForm()

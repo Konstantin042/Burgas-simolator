@@ -112,11 +112,29 @@
     <Compile Include="kiwivutre.Designer.cs">
       <DependentUpon>kiwivutre.cs</DependentUpon>
     </Compile>
+    <Compile Include="kofi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kofi.Designer.cs">
+      <DependentUpon>kofi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lostove.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lostove.Designer.cs">
+      <DependentUpon>Lostove.cs</DependentUpon>
+    </Compile>
     <Compile Include="morksa.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="morksa.Designer.cs">
       <DependentUpon>morksa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="neptuna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="neptuna.Designer.cs">
+      <DependentUpon>neptuna.cs</DependentUpon>
     </Compile>
     <Compile Include="piqn.cs">
       <SubType>Form</SubType>
@@ -165,8 +183,17 @@
     <EmbeddedResource Include="kiwivutre.resx">
       <DependentUpon>kiwivutre.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="kofi.resx">
+      <DependentUpon>kofi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lostove.resx">
+      <DependentUpon>Lostove.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="morksa.resx">
       <DependentUpon>morksa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="neptuna.resx">
+      <DependentUpon>neptuna.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="piqn.resx">
       <DependentUpon>piqn.cs</DependentUpon>
@@ -241,6 +268,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Barabar.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-07-08 100808.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lostove2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lostove1 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kofi1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kofi11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kofi3.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
