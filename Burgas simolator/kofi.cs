@@ -29,6 +29,7 @@ namespace Burgas_simolator
         }
         private void button1_Click(object sender, EventArgs e)
         {
+            countdownTimer.Stop();
             x++;
             if (x % 2 == 0)
             {
@@ -41,38 +42,13 @@ namespace Burgas_simolator
 
             if (y >= requiredClicks)
             {
-                countdownTimer.Stop();
                 MessageBox.Show($"Мазна направи {y} кофи за гръб.");
                 this.Hide();
                 Lostove lostove = new Lostove();
                 lostove.Show();
             }
         }
-        private void Lostove_Load(object sender, EventArgs e)
-        {
-            backgroundImages = new List<Image>
-            {
-                Properties.Resources.kofi1,
-                Properties.Resources.kofi3,
 
-            };
-            this.BackgroundImageLayout = ImageLayout.Stretch;
-            this.BackgroundImage = backgroundImages[0];
-
-            secondsLeft = totalSeconds;
-
-
-            countdownTimer = new Timer();
-            countdownTimer.Interval = 1000;
-            countdownTimer.Tick += CountdownTimer_Tick;
-            countdownTimer.Start();
-
-
-            label1.Text = $"Време: {secondsLeft}";
-
-
-            button1.Text = "Бройка: 0";
-        }
         private void CountdownTimer_Tick(object sender, EventArgs e)
         {
             secondsLeft--;
@@ -98,9 +74,78 @@ namespace Burgas_simolator
                 }
             }
         }
+
+        private void kofi_Load(object sender, EventArgs e)
+        {
+            backgroundImages = new List<Image>
+            {
+                Properties.Resources.kofi1,
+                Properties.Resources.kofi3,
+
+            };
+            this.BackgroundImageLayout = ImageLayout.Stretch;
+            this.BackgroundImage = backgroundImages[0];
+
+            secondsLeft = totalSeconds;
+
+
+            countdownTimer = new Timer();
+            countdownTimer.Interval = 1000;
+            countdownTimer.Tick += CountdownTimer_Tick;
+            countdownTimer.Start();
+
+
+            label1.Text = $"Време: {secondsLeft}";
+
+
+            button1.Text = "Бройка: 0";
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            x++;
+            if (x % 2 == 0)
+            {
+                y++;
+                button1.Text = y.ToString();
+
+            }
+            imageIndex = (imageIndex + 1) % backgroundImages.Count;
+            this.BackgroundImage = backgroundImages[imageIndex];
+
+            if (y >= requiredClicks)
+            {
+                countdownTimer.Stop();
+                MessageBox.Show($"Мазна направи {y} кофи за гръб.");
+                this.Hide();
+                Lostove lostove = new Lostove();
+                lostove.Show();
+            }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            neptuna neptuna = new neptuna();
+            neptuna.Show();
+            this.Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            countdownTimer.Stop();
+            Lostove lostove1 = new Lostove();
+             lostove1.Show();
+             this.Close();
+        }
     }
 }
-            
 
-        
+
+
+
 

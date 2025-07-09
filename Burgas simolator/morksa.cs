@@ -50,5 +50,12 @@ namespace Burgas_simolator
             neptuna.Show();
             this.Hide();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            mosta mosta = new mosta();
+            mosta.Show();
+            this.Close();
+        }
     }
 }

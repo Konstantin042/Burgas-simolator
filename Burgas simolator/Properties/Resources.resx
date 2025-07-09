@@ -118,26 +118,47 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="alosha" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\alosha.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="kiwiponavutre" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\kiwiponavutre.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Screenshot 2025-07-08 100808" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Screenshot 2025-07-08 100808.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Screenshot 2025-07-04 103201" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Screenshot 2025-07-04 103201.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="alosha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alosha.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bara" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bara.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="toshko3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toshko3.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Barabar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Barabar.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="absa1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\absa1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="lostove2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lostove2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kofi3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kofi3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="most2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\most2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toshko1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toshko1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2025-07-09 113313" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2025-07-09 113313.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_2842" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_2842.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kiwiponavutre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kiwiponavutre.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="parkizg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\parkizg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="aleksandrovska" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\aleksandrovska.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,40 +166,43 @@
   <data name="absa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\absa.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="kofi1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\kofi1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="predkiwi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\predkiwi.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="lostove1 (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lostove1 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="kofi11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\kofi11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="toshko2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\toshko2.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IMG_2842" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IMG_2842.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="hora" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hora.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Screenshot 2025-07-04 103201" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2025-07-04 103201.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Screenshot 2025-07-03 120138" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Screenshot 2025-07-03 120138.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="toshko3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\toshko3.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="toshko2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toshko2.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Toshko1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Toshko1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hora" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hora.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="predkiwi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\predkiwi.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="most" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\most.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="absa1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\absa1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="kofi11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kofi11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="kofi3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\kofi3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lostove1 (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lostove1 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2025-07-09 112929" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2025-07-09 112929.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mosta3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mosta3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kofi1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kofi1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="parkizg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\parkizg1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="terminalizg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\terminalizg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

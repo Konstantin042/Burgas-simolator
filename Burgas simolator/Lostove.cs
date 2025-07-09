@@ -29,6 +29,7 @@ namespace Burgas_simolator
 
         private void button1_Click(object sender, EventArgs e)
         {
+            countdownTimer.Start();
             x++;
             if (x % 2 == 0)
             {
@@ -42,7 +43,7 @@ namespace Burgas_simolator
             if (y >= requiredClicks)
             {
                 countdownTimer.Stop();
-                MessageBox.Show($"Мазна направи {y} силово за гръб.");
+                MessageBox.Show($"Мазна направи {y} силови за гръб.");
                 this.Hide();
                 Lostove lostove = new Lostove();
                 lostove.Show();
@@ -66,7 +67,7 @@ namespace Burgas_simolator
             countdownTimer = new Timer();
             countdownTimer.Interval = 1000;
             countdownTimer.Tick += CountdownTimer_Tick;
-            countdownTimer.Start();
+           
 
 
             label1.Text = $"Време: {secondsLeft}";
@@ -115,6 +116,7 @@ namespace Burgas_simolator
 
         private void button3_Click(object sender, EventArgs e)
         {
+            countdownTimer.Stop();
             kofi kofi = new kofi();
             kofi.Show();
             this.Close();

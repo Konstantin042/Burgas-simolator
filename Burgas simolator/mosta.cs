@@ -10,21 +10,21 @@ using System.Windows.Forms;
 
 namespace Burgas_simolator
 {
-    public partial class neptuna : Form
+    public partial class mosta : Form
     {
-        public neptuna()
+        public mosta()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Lostove lostove = new Lostove();
-            lostove.Show();
+            skok skok = new skok();
+            skok.Show();
             this.Close();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
             morksa morksa = new morksa();
             morksa.Show();

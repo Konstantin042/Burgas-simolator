@@ -57,5 +57,12 @@ namespace Burgas_simolator
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Izgrev izgrev = new Izgrev();
+            izgrev.Show();
+            this.Hide();
+        }
     }
 }

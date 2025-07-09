@@ -203,6 +203,56 @@ namespace Burgas_simolator.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap most {
+            get {
+                object obj = ResourceManager.GetObject("most", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap most2 {
+            get {
+                object obj = ResourceManager.GetObject("most2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mosta3 {
+            get {
+                object obj = ResourceManager.GetObject("mosta3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap parkizg {
+            get {
+                object obj = ResourceManager.GetObject("parkizg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap parkizg1 {
+            get {
+                object obj = ResourceManager.GetObject("parkizg1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap predkiwi {
             get {
                 object obj = ResourceManager.GetObject("predkiwi", resourceCulture);
@@ -236,6 +286,36 @@ namespace Burgas_simolator.Properties {
         internal static System.Drawing.Bitmap Screenshot_2025_07_08_100808 {
             get {
                 object obj = ResourceManager.GetObject("Screenshot 2025-07-08 100808", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2025_07_09_112929 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2025-07-09 112929", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2025_07_09_113313 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2025-07-09 113313", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap terminalizg {
+            get {
+                object obj = ResourceManager.GetObject("terminalizg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

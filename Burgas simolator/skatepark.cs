@@ -10,24 +10,17 @@ using System.Windows.Forms;
 
 namespace Burgas_simolator
 {
-    public partial class neptuna : Form
+    public partial class skatepark : Form
     {
-        public neptuna()
+        public skatepark()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Lostove lostove = new Lostove();
-            lostove.Show();
-            this.Close();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            morksa morksa = new morksa();
-            morksa.Show();
+           Izgrev izgrev = new Izgrev();
+            izgrev.Show();
             this.Close();
         }
     }
