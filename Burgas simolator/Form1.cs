@@ -64,5 +64,13 @@ namespace Burgas_simolator
             izgrev.Show();
             this.Hide();
         }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            Zornica zornica = new Zornica();
+            zornica.Show();
+            this.Hide();
+
+        }
     }
 }

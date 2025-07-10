@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace Burgas_simolator
 {
-    public partial class Lostove : Form
+    public partial class Lostove2 : Form
     {
         private int x;
         private int y;
@@ -22,7 +22,7 @@ namespace Burgas_simolator
         private Timer countdownTimer;
         private int secondsLeft;
 
-        public Lostove()
+        public Lostove2()
         {
             InitializeComponent();
         }
@@ -89,10 +89,10 @@ namespace Burgas_simolator
                 {
 
                     MessageBox.Show($"Времето изтече шматка, направи {y} силови. ТРЕНИРАЙ ПОВЕЧЕ");
-                    countdownTimer.Stop();
-                    //var lostove = new neptuna();
-                    //lostove.Show();
-                    //this.Close();
+
+                    var lostove = new neptuna();
+                    lostove.Show();
+                    this.Close();
                 }
                 if (y > requiredClicks)
                 {

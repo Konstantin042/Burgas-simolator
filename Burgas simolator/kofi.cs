@@ -60,12 +60,12 @@ namespace Burgas_simolator
 
                 if (y < requiredClicks)
                 {
-
+                    countdownTimer.Stop();
                     MessageBox.Show($"Времето изтече шматка, направи {y} кофи. ТРЕНИРАЙ ПОВЕЧЕ");
 
-                    var lostove = new neptuna();
-                    lostove.Show();
-                    this.Close();
+                    //var lostove = new neptuna();
+                    //lostove.Show();
+                    //this.Close();
                 }
                 if (y > requiredClicks)
                 {

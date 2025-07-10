@@ -118,17 +118,47 @@
     <Compile Include="kiwivutre.Designer.cs">
       <DependentUpon>kiwivutre.cs</DependentUpon>
     </Compile>
+    <Compile Include="kofi2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kofi2.Designer.cs">
+      <DependentUpon>kofi2.cs</DependentUpon>
+    </Compile>
     <Compile Include="kofi.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="kofi.Designer.cs">
       <DependentUpon>kofi.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lostove2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lostove2.Designer.cs">
+      <DependentUpon>Lostove2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Lostove.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Lostove.Designer.cs">
       <DependentUpon>Lostove.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lostoveizg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lostoveizg.Designer.cs">
+      <DependentUpon>lostoveizg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="macdonalts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="macdonalts.Designer.cs">
+      <DependentUpon>macdonalts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mcdvutre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mcdvutre.Designer.cs">
+      <DependentUpon>mcdvutre.cs</DependentUpon>
     </Compile>
     <Compile Include="morksa.cs">
       <SubType>Form</SubType>
@@ -162,6 +192,12 @@
     <Compile Include="Centur.mahala.Designer.cs">
       <DependentUpon>Centur.mahala.cs</DependentUpon>
     </Compile>
+    <Compile Include="pulse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pulse.Designer.cs">
+      <DependentUpon>pulse.cs</DependentUpon>
+    </Compile>
     <Compile Include="skatepark.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -179,6 +215,12 @@
     </Compile>
     <Compile Include="TerminalIzg.Designer.cs">
       <DependentUpon>TerminalIzg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Zornica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zornica.Designer.cs">
+      <DependentUpon>Zornica.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="absa vutre.resx">
       <DependentUpon>absa vutre.cs</DependentUpon>
@@ -216,11 +258,26 @@
     <EmbeddedResource Include="kiwivutre.resx">
       <DependentUpon>kiwivutre.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="kofi2.resx">
+      <DependentUpon>kofi2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="kofi.resx">
       <DependentUpon>kofi.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Lostove2.resx">
+      <DependentUpon>Lostove2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Lostove.resx">
       <DependentUpon>Lostove.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lostoveizg.resx">
+      <DependentUpon>lostoveizg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="macdonalts.resx">
+      <DependentUpon>macdonalts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mcdvutre.resx">
+      <DependentUpon>mcdvutre.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="morksa.resx">
       <DependentUpon>morksa.cs</DependentUpon>
@@ -247,6 +304,9 @@
     <EmbeddedResource Include="Centur.mahala.resx">
       <DependentUpon>Centur.mahala.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="pulse.resx">
+      <DependentUpon>pulse.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="skatepark.resx">
       <DependentUpon>skatepark.cs</DependentUpon>
     </EmbeddedResource>
@@ -255,6 +315,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TerminalIzg.resx">
       <DependentUpon>TerminalIzg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zornica.resx">
+      <DependentUpon>Zornica.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -355,6 +418,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\terminalizg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lostoveizg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-07-10 114551.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-07-10 115003.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mcd.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pulse.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pulse1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pulse2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pulse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-07-10 122845.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

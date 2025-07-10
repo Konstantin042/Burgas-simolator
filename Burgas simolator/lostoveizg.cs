@@ -10,38 +10,31 @@ using System.Windows.Forms;
 
 namespace Burgas_simolator
 {
-    public partial class Izgrev : Form
+    public partial class lostoveizg : Form
     {
-        public Izgrev()
+        public lostoveizg()
         {
             InitializeComponent();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-           Form1 form1 = new Form1();
-            form1.Show();
-            this.Close();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            skatepark skatepark1 = new skatepark();
-            skatepark1.Show();
+            Izgrev izgrev = new Izgrev();
+            izgrev.Show();
             this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            TerminalIzg terminalIzg = new TerminalIzg();
-            terminalIzg.Show();
+            kofi2 kofi2 = new kofi2();
+            kofi2.Show();
             this.Close();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            lostoveizg lostoveizg1 = new lostoveizg();  
-            lostoveizg1.Show();
+            Lostove2 lostove2 = new Lostove2();
+            lostove2.Show();
             this.Close();
         }
     }

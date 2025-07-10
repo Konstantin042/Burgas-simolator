@@ -203,6 +203,26 @@ namespace Burgas_simolator.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap lostoveizg {
+            get {
+                object obj = ResourceManager.GetObject("lostoveizg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Mcd {
+            get {
+                object obj = ResourceManager.GetObject("Mcd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap most {
             get {
                 object obj = ResourceManager.GetObject("most", resourceCulture);
@@ -263,6 +283,46 @@ namespace Burgas_simolator.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pulse {
+            get {
+                object obj = ResourceManager.GetObject("pulse", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pulse1 {
+            get {
+                object obj = ResourceManager.GetObject("pulse1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pulse2 {
+            get {
+                object obj = ResourceManager.GetObject("pulse2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pulse3 {
+            get {
+                object obj = ResourceManager.GetObject("pulse3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Screenshot_2025_07_03_120138 {
             get {
                 object obj = ResourceManager.GetObject("Screenshot 2025-07-03 120138", resourceCulture);
@@ -306,6 +366,46 @@ namespace Burgas_simolator.Properties {
         internal static System.Drawing.Bitmap Screenshot_2025_07_09_113313 {
             get {
                 object obj = ResourceManager.GetObject("Screenshot 2025-07-09 113313", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2025_07_10_114551 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2025-07-10 114551", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2025_07_10_115003 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2025-07-10 115003", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2025_07_10_122845 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2025-07-10 122845", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap skate {
+            get {
+                object obj = ResourceManager.GetObject("skate", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
