@@ -123,6 +123,16 @@ namespace Burgas_simolator.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap borisova {
+            get {
+                object obj = ResourceManager.GetObject("borisova", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hora {
             get {
                 object obj = ResourceManager.GetObject("hora", resourceCulture);
@@ -136,6 +146,16 @@ namespace Burgas_simolator.Properties {
         internal static System.Drawing.Bitmap IMG_2842 {
             get {
                 object obj = ResourceManager.GetObject("IMG_2842", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kfc {
+            get {
+                object obj = ResourceManager.GetObject("kfc", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -403,6 +423,36 @@ namespace Burgas_simolator.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2025_07_11_110848 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2025-07-11 110848", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2025_07_11_112455 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2025-07-11 112455", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2025_07_11_115545 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2025-07-11 115545", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap skate {
             get {
                 object obj = ResourceManager.GetObject("skate", resourceCulture);
@@ -446,6 +496,36 @@ namespace Burgas_simolator.Properties {
         internal static System.Drawing.Bitmap toshko3 {
             get {
                 object obj = ResourceManager.GetObject("toshko3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap МОЛ {
+            get {
+                object obj = ResourceManager.GetObject("МОЛ", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap мол2 {
+            get {
+                object obj = ResourceManager.GetObject("мол2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Опера {
+            get {
+                object obj = ResourceManager.GetObject("Опера", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

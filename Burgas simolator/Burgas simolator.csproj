@@ -76,6 +76,12 @@
     <Compile Include="bara.Designer.cs">
       <DependentUpon>bara.cs</DependentUpon>
     </Compile>
+    <Compile Include="Borisova.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Borisova.Designer.cs">
+      <DependentUpon>Borisova.cs</DependentUpon>
+    </Compile>
     <Compile Include="FightForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +105,18 @@
     </Compile>
     <Compile Include="Izgrev.Designer.cs">
       <DependentUpon>Izgrev.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kfc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kfc.Designer.cs">
+      <DependentUpon>Kfc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kfcvutre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kfcvutre.Designer.cs">
+      <DependentUpon>kfcvutre.cs</DependentUpon>
     </Compile>
     <Compile Include="kiwi.cs">
       <SubType>Form</SubType>
@@ -160,6 +178,18 @@
     <Compile Include="mcdvutre.Designer.cs">
       <DependentUpon>mcdvutre.cs</DependentUpon>
     </Compile>
+    <Compile Include="Mol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mol.Designer.cs">
+      <DependentUpon>Mol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mol1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mol1.Designer.cs">
+      <DependentUpon>mol1.cs</DependentUpon>
+    </Compile>
     <Compile Include="morksa.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -177,6 +207,12 @@
     </Compile>
     <Compile Include="neptuna.Designer.cs">
       <DependentUpon>neptuna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="opera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="opera.Designer.cs">
+      <DependentUpon>opera.cs</DependentUpon>
     </Compile>
     <Compile Include="piqn.cs">
       <SubType>Form</SubType>
@@ -210,11 +246,23 @@
     <Compile Include="skok.Designer.cs">
       <DependentUpon>skok.cs</DependentUpon>
     </Compile>
+    <Compile Include="Slaveilov.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Slaveilov.Designer.cs">
+      <DependentUpon>Slaveilov.cs</DependentUpon>
+    </Compile>
     <Compile Include="TerminalIzg.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="TerminalIzg.Designer.cs">
       <DependentUpon>TerminalIzg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vzr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vzr.Designer.cs">
+      <DependentUpon>Vzr.cs</DependentUpon>
     </Compile>
     <Compile Include="Zornica.cs">
       <SubType>Form</SubType>
@@ -237,6 +285,9 @@
     <EmbeddedResource Include="bara.resx">
       <DependentUpon>bara.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Borisova.resx">
+      <DependentUpon>Borisova.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FightForm.resx">
       <DependentUpon>FightForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -248,6 +299,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Izgrev.resx">
       <DependentUpon>Izgrev.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kfc.resx">
+      <DependentUpon>Kfc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kfcvutre.resx">
+      <DependentUpon>kfcvutre.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="kiwi.resx">
       <DependentUpon>kiwi.cs</DependentUpon>
@@ -279,6 +336,12 @@
     <EmbeddedResource Include="mcdvutre.resx">
       <DependentUpon>mcdvutre.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Mol.resx">
+      <DependentUpon>Mol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mol1.resx">
+      <DependentUpon>mol1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="morksa.resx">
       <DependentUpon>morksa.cs</DependentUpon>
     </EmbeddedResource>
@@ -287,6 +350,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="neptuna.resx">
       <DependentUpon>neptuna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="opera.resx">
+      <DependentUpon>opera.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="piqn.resx">
       <DependentUpon>piqn.cs</DependentUpon>
@@ -313,8 +379,14 @@
     <EmbeddedResource Include="skok.resx">
       <DependentUpon>skok.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Slaveilov.resx">
+      <DependentUpon>Slaveilov.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TerminalIzg.resx">
       <DependentUpon>TerminalIzg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vzr.resx">
+      <DependentUpon>Vzr.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Zornica.resx">
       <DependentUpon>Zornica.cs</DependentUpon>
@@ -448,6 +520,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Screenshot 2025-07-10 122845.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-07-11 110848.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kfc.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-07-11 112455.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\МОЛ.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\мол2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-07-11 115545.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\borisova.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Опера.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

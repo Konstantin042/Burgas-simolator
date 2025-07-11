@@ -10,24 +10,24 @@ using System.Windows.Forms;
 
 namespace Burgas_simolator
 {
-    public partial class macdonalts : Form
+    public partial class Mol : Form
     {
-        public macdonalts()
+        public Mol()
         {
             InitializeComponent();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Zornica zornica = new Zornica();
-            zornica.Show();
+            Slaveilov slaveilov = new Slaveilov();
+            slaveilov.Show();
             this.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-           mcdvutre mcdvutre = new mcdvutre();
-            mcdvutre.Show();
+            mol1 mol1 = new mol1();
+            mol1.Show();
             this.Close();
         }
     }

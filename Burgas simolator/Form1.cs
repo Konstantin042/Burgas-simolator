@@ -72,5 +72,13 @@ namespace Burgas_simolator
             this.Hide();
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Slaveilov slaveilov = new Slaveilov();
+            slaveilov.Show();
+            this.Hide();
+
+        }
     }
 }

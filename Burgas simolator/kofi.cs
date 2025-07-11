@@ -43,9 +43,9 @@ namespace Burgas_simolator
             if (y >= requiredClicks)
             {
                 MessageBox.Show($"Мазна направи {y} кофи за гръб.");
-                this.Hide();
-                Lostove lostove = new Lostove();
-                lostove.Show();
+                //this.Hide();
+                //Lostove lostove = new Lostove();
+                //lostove.Show();
             }
         }
 

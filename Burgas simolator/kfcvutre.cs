@@ -10,25 +10,23 @@ using System.Windows.Forms;
 
 namespace Burgas_simolator
 {
-    public partial class macdonalts : Form
+    public partial class kfcvutre : Form
     {
-        public macdonalts()
+        public kfcvutre()
         {
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            Zornica zornica = new Zornica();
-            zornica.Show();
+            Kfc kfc = new Kfc();
+            kfc.Show();
             this.Close();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-           mcdvutre mcdvutre = new mcdvutre();
-            mcdvutre.Show();
-            this.Close();
+            label1.Visible = true;
         }
     }
 }
